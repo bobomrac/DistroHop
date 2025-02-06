@@ -17,7 +17,7 @@ NOTE: This is a simple tool designed to speed up the process of changing distros
 </ul>
 
 <h2>🔧 Usage</h2>
-<br>Run main.py<br>
+Run main.py<br>
 <h3>Export Backup</h3>
 <ol>
   <li>Insert USB → Select files/apps → Create backup</li>

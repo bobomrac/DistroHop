@@ -10,9 +10,9 @@ NOTE: This is a simple tool designed to speed up the process of changing distros
 
 <h2>✨ Features</h2>
 <ul>
-  <li>📦 Backs up home files and .config files (Documents, configs, etc.)</li>
-  <li>📋 Saves your installed apps as a list (APT/DNF/Pacman/Flatpak)</li>
-  <li>🔄 Restores apps automatic using your new distro's package manager and flatpak</li>
+  <li>📦 Backs up home files and .config files</li>
+  <li>📋 Saves your installed apps as a list</li>
+  <li>🔄 Restores apps automatically using your new distro's package manager and flatpak</li>
   <li>💾 Creates single-file USB backups</li>
 </ul>
 
@@ -35,19 +35,19 @@ NOTE: This is a simple tool designed to speed up the process of changing distros
   </tr>
   <tr>
     <td>APT</td>
-    <td>Debian, Ubuntu</td>
+    <td>Debian, Ubuntu, Mint, etc</td>
   </tr>
   <tr>
     <td>DNF/Yum</td>
-    <td>Fedora, RHEL</td>
+    <td>Fedora, RHEL, etc</td>
   </tr>
   <tr>
     <td>Pacman</td>
-    <td>Arch, Manjaro</td>
+    <td>Arch, Manjaro, etc</td>
   </tr>
   <tr>
     <td>Flatpak</td>
-    <td></td>
+    <td>universal</td>
   </tr>
 </table>
 

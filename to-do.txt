@@ -2,7 +2,7 @@ Key Features Implemented:
 
     USB drive detection and selection
 
-    File and configuration backup
+    File and configuration backup (Expand?)
 
     Application list backup
 
@@ -16,8 +16,12 @@ Key Features Implemented:
 
 Limitations and Next Steps:
 
-    Add proper error handling for all system commands
+    Add proper error handling
 
-    Implement proper file conflict resolution (eg. The existing file will be renamed eg."backup"-name and then the file from your backup/last distro will be extracted.)
+    Better support, openSUSE
+
+    Implement proper file conflict resolution (eg. The existing conflicting file will be renamed eg."backup"-name and then the file from your backup/last distro will be extracted.)
 
     Add detailed help documentation
+
+    Convert into flatpak -> flathub

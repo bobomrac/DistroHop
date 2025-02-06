@@ -1,10 +1,8 @@
 <h1 align="center">🐧 DistroHop</h1>
-<h3 align="center">Cross-Distro Backup & Restore</h3>
+<h3 align="center">Bring your files + configs + apps → To any Linux distro</strong><br>
+  Supports Debian/Ubuntu • Fedora/RHEL • Arch • Derivatives</h3>
 
 <div align="center">
-  <strong>Bring your files + configs + apps → To any Linux distro</strong><br>
-  Supports Debian/Ubuntu • Fedora/RHEL • Arch • Derivatives
-<br>
 NOTE: This is a simple tool to make changing distro a little less boring.
 <br>it is not made to be a 100% complete migration tool.
 </div>

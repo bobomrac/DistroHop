@@ -2,10 +2,10 @@
 <h3 align="center">Cross-Distro Backup & Restore</h3>
 
 <div align="center">
-  <strong>Backup your files + configs + apps → Restore on any Linux distro</strong><br>
+  <strong>Bring your files + configs + apps → To any Linux distro</strong><br>
   Supports Debian/Ubuntu • Fedora/RHEL • Arch • Derivatives
 </div>
-
+NOTE: This is a simple tool to make changing distros a little bit quicker/easier, it is not made to be a 100% complete migration tool.
 <br>
 
 <h2>✨ Features</h2>

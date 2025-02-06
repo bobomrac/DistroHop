@@ -14,14 +14,16 @@ Key Features Implemented:
 
     Full application reinstallation logic
 
-Limitations and Next Steps:
+Next Steps:
 
     Add proper error handling
 
-    Better support, openSUSE
+    Add support for more distros, openSUSE
 
-    Implement proper file conflict resolution (eg. The existing conflicting file will be renamed eg."backup"-name and then the file from your backup/last distro will be extracted.)
+    Add auto backup appimages
+
+    Implement proper file conflict resolution
 
     Add detailed help documentation
 
-    Convert into flatpak -> flathub
+    Deploy on flathub

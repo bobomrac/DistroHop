@@ -50,10 +50,3 @@ NOTE: This is a simple tool designed to speed up the process of changing distros
     <td>universal</td>
   </tr>
 </table>
-
-<h2>⚠️ Notes</h2>
-<ul>
-  <li>Requires Python 3.6+ and basic CLI tools</li>
-  <li>Root access needed for app installation</li>
-  <li>Package names must match between distros</li>
-</ul>

@@ -26,4 +26,6 @@ Next Steps:
 
     Add detailed help documentation
 
+    Package names don't have to match between distros
+
     Deploy on flathub

@@ -3,8 +3,8 @@
   Supports Debian/Ubuntu • Fedora/RHEL • Arch • Derivatives</h3>
 
 <div align="center">
-NOTE: This is a simple tool to make changing distro a little quicker.
-<br>It's not meant to be a complete migration tool.
+NOTE: This is a simple tool designed to speed up the process of changing distros.
+<br>It’s not intended to be a full migration solution.
 </div>
 <br>
 

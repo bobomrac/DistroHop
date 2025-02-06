@@ -45,6 +45,10 @@ NOTE: This is a simple tool to make changing distro a little quicker.
     <td>Pacman</td>
     <td>Arch, Manjaro</td>
   </tr>
+  <tr>
+    <td>Flatpak</td>
+    <td></td>
+  </tr>
 </table>
 
 <h2>⚠️ Notes</h2>

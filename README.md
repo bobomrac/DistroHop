@@ -4,15 +4,15 @@
 
 <div align="center">
 NOTE: This is a simple tool to make changing distro a little quicker.
-<br>It is not made to be a 100% complete migration tool.
+<br>It's not meant to be a complete migration tool.
 </div>
 <br>
 
 <h2>✨ Features</h2>
 <ul>
-  <li>📦 Backs up home files (Documents, configs, etc.)</li>
-  <li>📋 Saves installed apps (APT/DNF/Pacman/Flatpak)</li>
-  <li>🔄 Restores apps using target system's package manager automatically</li>
+  <li>📦 Backs up home files and .config files (Documents, configs, etc.)</li>
+  <li>📋 Saves your installed apps as a list (APT/DNF/Pacman/Flatpak)</li>
+  <li>🔄 Restores apps automatic using your new distro's package manager and flatpak</li>
   <li>💾 Creates single-file USB backups</li>
 </ul>
 

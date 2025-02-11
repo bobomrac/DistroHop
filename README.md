@@ -2,13 +2,6 @@
 <h1 align="center">📦 Linux Migration Tool</h1>
     <p align="center">A simple CLI tool for backing up and restoring user files and applications on Linux.</p>
 
-    
-<p align="center">
-        <span class="badge">MIT License</span>
-        <span class="badge">Python 3.x</span>
-        <span class="badge">Linux Compatible</span>
-    </p>
-
 <h2>🚀 About</h2>
     <p>The <b>Linux Migration Tool</b> helps users back up important files, configurations, and installed applications and restore them on a new system. This tool simplifies migration between Linux distributions or after a fresh installation.</p>
 

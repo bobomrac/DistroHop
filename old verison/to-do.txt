@@ -1,0 +1,23 @@
+Key Features Implemented:
+
+    USB drive detection and selection
+
+    File and configuration backup
+
+    Application list backup
+
+    Backup restoration
+
+    Simple error handling
+
+    Progress reporting
+
+    Full application reinstallation logic
+
+Limitations and Next Steps:
+
+    Add proper error handling for all system commands
+
+    Implement proper file conflict resolution (eg. The existing file will be renamed eg."backup"-name and then the file from your backup/last distro will be extracted.)
+
+    Add detailed help documentation

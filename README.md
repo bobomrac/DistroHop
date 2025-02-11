@@ -1,53 +1,165 @@
-<h1 align="center">🐧 DistroHop</h1>
-<h3 align="center">Bring your files + configs + apps → To any Linux distro</strong><br>
-  Supports Debian/Ubuntu • Fedora/RHEL • Arch • Derivatives</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Migration Tool - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background: #eee;
+            padding: 4px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        pre {
+            background: #222;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #007bff;
+            color: #fff;
+            font-size: 14px;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
 
-<div align="center">
-NOTE: This is a simple tool designed to speed up the process of changing distros.
-<br>It’s not intended to be a full migration solution.
+<div class="container">
+    <h1 align="center">📦 Linux Migration Tool</h1>
+    <p align="center">A simple CLI tool for backing up and restoring user files and applications on Linux.</p>
+
+    <p align="center">
+        <span class="badge">MIT License</span>
+        <span class="badge">Python 3.x</span>
+        <span class="badge">Linux Compatible</span>
+    </p>
+
+    <h2>🚀 About</h2>
+    <p>The <b>Linux Migration Tool</b> helps users back up important files, configurations, and installed applications and restore them on a new system. This tool simplifies migration between Linux distributions or after a fresh installation.</p>
+
+    <h2>🎯 Features</h2>
+    <ul>
+        <li>✔️ Backup & Restore: Save and restore user files, configurations, and installed applications.</li>
+        <li>✔️ USB Detection: Automatically detects connected USB drives for storage.</li>
+        <li>✔️ Application Backup: Detects installed applications and saves a list for reinstallation.</li>
+        <li>✔️ Package Manager Support: Works with <code>apt</code>, <code>dnf</code>, <code>yum</code>, <code>pacman</code>, and <code>flatpak</code>.</li>
+        <li>✔️ User-Friendly CLI: Simple menu-driven interface for easy navigation.</li>
+        <li>✔️ Efficient Archiving: Uses compressed <code>.tar.gz</code> format for optimal storage.</li>
+    </ul>
+
+    <h2>📥 Installation</h2>
+
+    <h3>🛠️ Prerequisites</h3>
+    <ul>
+        <li>Python 3.x</li>
+        <li>A Linux-based operating system (Debian, Ubuntu, Fedora, Arch, etc.)</li>
+        <li>USB storage for backups</li>
+    </ul>
+
+    <h3>🔧 Setup</h3>
+    <pre>
+git clone https://github.com/your-username/linux-migration-tool.git
+cd linux-migration-tool
+chmod +x linux_migration_tool.py
+./linux_migration_tool.py
+    </pre>
+
+    <h2>🏗️ Usage</h2>
+    <p>Run the tool and follow the on-screen instructions:</p>
+    <pre>python3 linux_migration_tool.py</pre>
+
+    <h3>📤 Export Backup:</h3>
+    <ol>
+        <li>Select a USB drive for the backup.</li>
+        <li>Choose which files and directories to back up.</li>
+        <li>Choose installed applications to save for later reinstallation.</li>
+        <li>Confirm and create the backup.</li>
+    </ol>
+
+    <h3>📥 Import Restore:</h3>
+    <ol>
+        <li>Select a USB drive containing the backup.</li>
+        <li>Choose the backup file to restore.</li>
+        <li>Restore files to your home directory.</li>
+        <li>Reinstall previously installed applications.</li>
+    </ol>
+
+    <h2>🖥️ Supported Package Managers</h2>
+    <ul>
+        <li><b>apt</b> (Debian, Ubuntu)</li>
+        <li><b>dnf</b> (Fedora)</li>
+        <li><b>yum</b> (CentOS, RHEL)</li>
+        <li><b>pacman</b> (Arch Linux, Manjaro)</li>
+        <li><b>zypper</b> (openSUSE)</li>
+        <li><b>flatpak</b> (Universal package manager)</li>
+    </ul>
+
+    <h2>🔧 Contributing</h2>
+    <ol>
+        <li>Fork the repository</li>
+        <li>Create a feature branch: <code>git checkout -b feature-name</code></li>
+        <li>Commit changes: <code>git commit -m "Added new feature"</code></li>
+        <li>Push to GitHub: <code>git push origin feature-name</code></li>
+        <li>Create a pull request</li>
+    </ol>
+
+    <h2>📜 License</h2>
+    <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
+
+    <h2>🛠️ Troubleshooting</h2>
+
+    <h3>❌ USB Drive Not Detected?</h3>
+    <ul>
+        <li>Ensure the USB is mounted.</li>
+        <li>Run <code>lsblk</code> to check if it appears.</li>
+        <li>Try running the tool with <code>sudo</code>.</li>
+    </ul>
+
+    <h3>❌ Backup Failed?</h3>
+    <ul>
+        <li>Ensure the USB has enough free space.</li>
+        <li>Run <code>df -h</code> to check available disk space.</li>
+        <li>Try running with <code>sudo</code> if permission issues occur.</li>
+    </ul>
+
+    <h3>❌ Apps Not Restored?</h3>
+    <ul>
+        <li>Some packages may have different names in different distros.</li>
+        <li>Use <code>apt search package-name</code> or <code>dnf list available | grep package-name</code> to manually find missing apps.</li>
+    </ul>
+
+    <h2>🌎 Connect with Me</h2>
+    <ul>
+        <li>📧 Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+        <li>🐦 Twitter: <a href="https://twitter.com/yourhandle">@yourhandle</a></li>
+        <li>📂 GitHub: <a href="https://github.com/your-username">your-username</a></li>
+    </ul>
+
 </div>
-<br>
 
-<h2>✨ Features</h2>
-<ul>
-  <li>📦 Backs up home files and .config files</li>
-  <li>📋 Saves your installed apps as a list</li>
-  <li>🔄 Restores apps automatically using your new distro's package manager and flatpak</li>
-  <li>💾 Creates single-file USB backups</li>
-</ul>
-
-<h2>🔧 Usage</h2>
-Run main.py<br>
-<h3>Export Backup</h3>
-<ol>
-  <li>Insert USB → Select files/apps → Create backup</li>
-</ol>
-
-<h3>Import Restore</h3>
-<ol>
-  <li>Insert backup USB → Restore files → Reinstall same apps</li>
-</ol>
-
-<h2>📌 Supported Systems</h2>
-<table>
-  <tr>
-    <th>Package Manager</th>
-    <th>Distros</th>
-  </tr>
-  <tr>
-    <td>APT</td>
-    <td>Debian, Ubuntu, Mint, etc</td>
-  </tr>
-  <tr>
-    <td>DNF/Yum</td>
-    <td>Fedora, RHEL, etc</td>
-  </tr>
-  <tr>
-    <td>Pacman</td>
-    <td>Arch, Manjaro, etc</td>
-  </tr>
-  <tr>
-    <td>Flatpak</td>
-    <td>universal</td>
-  </tr>
-</table>
+</body>
+</html>

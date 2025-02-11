@@ -71,8 +71,6 @@ chmod +x linux_migration_tool.py
         <li>Create a pull request</li>
     </ol>
 
- <h2>📜 License</h2>
-    <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
 
  <h2>🛠️ Troubleshooting</h2>
 
@@ -96,12 +94,6 @@ chmod +x linux_migration_tool.py
         <li>Use <code>apt search package-name</code> or <code>dnf list available | grep package-name</code> to manually find missing apps.</li>
     </ul>
 
- <h2>🌎 Connect with Me</h2>
-    <ul>
-        <li>📧 Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-        <li>🐦 Twitter: <a href="https://twitter.com/yourhandle">@yourhandle</a></li>
-        <li>📂 GitHub: <a href="https://github.com/your-username">your-username</a></li>
-    </ul>
 
 </div>
 

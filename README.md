@@ -26,8 +26,8 @@
 
 <h3>🔧 Setup</h3>
     <pre>
-git clone https://github.com/your-username/linux-migration-tool.git
-cd linux-migration-tool
+git clone https://github.com/bobomrac/DistroHop.git
+cd DistroHop
 chmod +x linux_migration_tool.py
 ./linux_migration_tool.py
     </pre>

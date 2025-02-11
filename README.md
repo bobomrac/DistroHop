@@ -62,14 +62,6 @@ chmod +x linux_migration_tool.py
         <li><b>flatpak</b> (Universal package manager)</li>
     </ul>
 
- <h2>🔧 Contributing</h2>
-    <ol>
-        <li>Fork the repository</li>
-        <li>Create a feature branch: <code>git checkout -b feature-name</code></li>
-        <li>Commit changes: <code>git commit -m "Added new feature"</code></li>
-        <li>Push to GitHub: <code>git push origin feature-name</code></li>
-        <li>Create a pull request</li>
-    </ol>
 
 
  <h2>🛠️ Troubleshooting</h2>
